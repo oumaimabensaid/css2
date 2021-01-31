@@ -1,0 +1,277 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #747474;
+    margin-top: 150px;
+}
+
+#navbar {
+    width: 100;
+    position: fixed;
+    top: 0;
+}
+
+#navbar .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 100%;
+    height: 85px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: #ababab;
+    text-decoration: none;
+}
+
+.docplanner-logo img {
+    width: 20%;
+}
+
+#nav h1 {
+    display: flex;
+    align-items: center;
+}
+
+#navbar img {
+    width: 250px;
+    height: 30px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h1,
+section h2 {
+    color: #00b39b;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 34px 0px;
+    font-family: Work Sans, Arial, Helvetica, sans-serif;
+}
+
+section h1 {
+    font-size: 2.125rem;
+}
+
+section p {
+    margin: .8m 0;
+    line-height: 1.75;
+    font-weight: 400;
+    padding: 10px;
+}
+
+#logo {
+    width: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+}
+
+.post {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.post article {
+    width: 30%;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.green {
+    background-color: #00b39b;
+}
+
+.blue {
+    background-color: #3d83df;
+}
+
+.black {
+    background-color: #1b2734;
+}
+
+
+
+
+.post-content {
+    /* width: 30%; */
+}
+
+.post-content h1,
+.post-content h2 {
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links h2 {
+    text-align: left;
+    width: 30%;
+}
+
+.links div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 30px;
+    right: 40px;
+
+    text-decoration: none;
+    color: #ababab;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+section.back {
+    background-color: rgb(186, 236, 232);
+}
+
+div p {
+    text-align: left;
+    width: 50%;
+    color: black;
+}
+
+.back {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+
+}
+
+.back1 {
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+}
+
+.back2 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-right: 60px;
+
+}
+
+.patient.doctor {
+    margin-top: -10px;
+}
+
+.backpost {
+    background-color: #fff;
+    height: 40%;
+    width: 30%;
+    overflow: hidden;
+}
+
+.backpostMargin {
+    margin-top: -20px;
+}
+
+/* .flag{
+    background-color: #fff;
+    width: 30%;
+    height: 30%;
+    overflow: hidden;
+}
+
+.visit{
+    background-color: #fff;
+    width: 30%;
+  
+}
+
+.patient{
+    background-color: #fff;
+    width: 30%;
+    
+}
+
+.doctor{
+    background-color: #fff;
+    width: 30%;
+    
+} */
+
+h3 {
+    color: #00b39b;
+
+}
+
+.platform p {
+    color: gray;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+h4 {
+    text-align: center;
+    margin: .8m 0;
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.country {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+}
+
+.warsaw {
+    background-color: white;
+    width: 30%;
+    height: 20%;
+}
+
+.barcelona {
+    background-color: white;
+    width: 30%;
+    height: 20%;
+}
+
+.istanbul {
+    background-color: white;
+    width: 30%;
+    height: 20%;
+}
